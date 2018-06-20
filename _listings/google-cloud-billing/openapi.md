@@ -4,7 +4,7 @@ x-collection-name: Google Cloud Billing
 x-complete: 1
 info:
   title: Google Cloud Billing
-  description: allows-developers-to-manage-billing-for-their-google-cloud-platform-projects----programmatically
+  description: allows-developers-to-manage-billing-for-their-google-cloud-platform-projects----programmatically-
   contact:
     name: Google
     url: https://google.com
