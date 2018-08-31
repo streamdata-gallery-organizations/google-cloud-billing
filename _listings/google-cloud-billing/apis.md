@@ -7,42 +7,44 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Google Cloud Billing
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-30"
+modified: "2018-08-30"
 url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Cloud Billing API Get Billing Accounts
-  x-api-slug: google-cloud-billing-api
+- name: Google Cloud Billing - Get Billing Accounts
+  x-api-slug: v1billingaccounts-get
   description: |-
     Lists the billing accounts that the current authenticated user
     [owns](https://support.google.com/cloud/answer/4430947).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
   humanURL: https://cloud.google.com/billing/docs/
-  baseURL: ://cloudbilling.googleapis.com////v1/billingAccounts
-  tags: Account
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1billingaccounts-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1billingaccounts-get-openapi.md
-- name: Google Cloud Billing API Get Billing Account
-  x-api-slug: google-cloud-billing-api
+- name: Google Cloud Billing - Get Billing Account
+  x-api-slug: v1name-get
   description: |-
     Gets information about a billing account. The current authenticated user
     must be an [owner of the billing
     account](https://support.google.com/cloud/answer/4430947).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
   humanURL: https://cloud.google.com/billing/docs/
-  baseURL: ://cloudbilling.googleapis.com////v1/{name}
-  tags: Account
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1name-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1name-get-openapi.md
-- name: Google Cloud Billing API Get Billing Information
-  x-api-slug: google-cloud-billing-api
+- name: Google Cloud Billing - Get Billing Information
+  x-api-slug: v1namebillinginfo-get
   description: |-
     Gets the billing information for a project. The current authenticated user
     must have [permission to view the
@@ -50,15 +52,16 @@ apis:
     ).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
   humanURL: https://cloud.google.com/billing/docs/
-  baseURL: ://cloudbilling.googleapis.com////v1/{name}/billingInfo
-  tags: Billing
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1namebillinginfo-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1namebillinginfo-get-openapi.md
-- name: Google Cloud Billing API Update Billing Information
-  x-api-slug: google-cloud-billing-api
+- name: Google Cloud Billing - Update Billing Information
+  x-api-slug: v1namebillinginfo-put
   description: |-
     Sets or updates the billing account associated with a project. You specify
     the new billing account by setting the `billing_account_name` in the
@@ -93,36 +96,31 @@ apis:
     *open* billing account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
   humanURL: https://cloud.google.com/billing/docs/
-  baseURL: ://cloudbilling.googleapis.com////v1/{name}/billingInfo
-  tags: Billing
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1namebillinginfo-put-openapi.md
-- name: Google Cloud Billing API Get Projects
-  x-api-slug: google-cloud-billing-api
+- name: Google Cloud Billing - Get Projects
+  x-api-slug: v1nameprojects-get
   description: |-
     Lists the projects associated with a billing account. The current
     authenticated user must be an [owner of the billing
     account](https://support.google.com/cloud/answer/4430947).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
   humanURL: https://cloud.google.com/billing/docs/
-  baseURL: ://cloudbilling.googleapis.com////v1/{name}/projects
-  tags: Project
+  baseURL: ://cloudbilling.googleapis.com//
+  tags: Google APIs, Monetization, Stack Network, Billing, API Service Provider, API
+    Provider, Profiles, Relative Data, Service API
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/v1nameprojects-get-openapi.md
-- name: Google Cloud Billing API
-  x-api-slug: google-cloud-billing-api
-  description: The Google Cloud Billing API provides methods that you can use to programmatically
-    manage billing for your projects in the Google Cloud Platform.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png
-  humanURL: https://cloud.google.com/billing/docs/
-  baseURL: ://cloudbilling.googleapis.com//
-  tags: Google Cloud Billing
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://google.classroom.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.cloud.billing.stack.network
 - type: x-code
   url: https://cloud.google.com/billing/v1/libraries
 - type: x-errors

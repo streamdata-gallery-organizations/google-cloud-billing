@@ -4,7 +4,7 @@ url: google-cloud-billing.streamdata.gallery
 tag: Google Cloud Billing
 markdown: kramdown
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", ".DS_Store"]
-github_user: streamdata-gallery-entities
+github_user: streamdata-gallery-topics
 github_repo: google-cloud-billing
 github_branch: master
 collections:

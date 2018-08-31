@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - Google Cloud Billing",
+	"description": "This is a repository of google cloud billing APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/google-cloud-billing.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://google-cloud-billing.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "Google Cloud Billing",
+			"x-api-slug": "google-cloud-billing",
+			"description": "The Google Cloud Billing API provides methods that you can use to programmatically manage billing for your projects in the Google Cloud Platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Generic-GCP.png",
+			"humanURL": "https://cloud.google.com/billing/docs/",
+			"baseURL": "://cloudbilling.googleapis.com//",
+			"tags": "Google Cloud Billing",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Google Cloud Billing",
+	"include": [
+		{
+			"name": "Google Cloud Billing",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/google-cloud-billing/master/_listings/google-cloud-billing/apis.yaml"
+		}
+	]
+}
